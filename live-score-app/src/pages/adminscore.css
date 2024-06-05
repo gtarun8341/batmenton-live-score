@@ -1,0 +1,16 @@
+/* Add this style to your existing CSS or create a new CSS file */
+
+@media (max-width: 767px) {
+  /* For screens with a width less than 768 pixels */
+  .player-info {
+    flex-direction: column; /* Display player info in a column on small screens */
+  }
+
+  .buttons-box {
+    flex-direction: column; /* Display score buttons in a column on small screens */
+  }
+
+  .symbol-box {
+    margin-right: 0; /* Adjust margin for the symbol box on small screens */
+  }
+}
